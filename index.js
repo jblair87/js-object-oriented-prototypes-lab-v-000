@@ -33,6 +33,9 @@ function BoardMember(name, homeState, training){
 BoardMember.prototype.veto = function(){
 console.log('No, I must disagree') };
 
+BoardMember.prototype.approve = function(){
+console.log('You can do that!') };
+
 BoardMember.prototype.releasePressStatement = function(){
 console.log("You will see great things from Scuber.") };
   
