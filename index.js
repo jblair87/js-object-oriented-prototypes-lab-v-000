@@ -32,11 +32,11 @@ function BoardMember(name, homeState, training){
 
 User.prototype;
 
-BoardMember.prototype.releasePressStatement = function(){
+polishedBoardMember.prototype.releasePressStatement = function(){
     console.log("You will see great things from Scuber.");
   }
   
-BoardMember.prototype.sayHi = function() {
+polishedBoardMember.prototype.sayHi = function() {
     console.log(`Hi, my name is ${this.name}. I am from  ${this.homeState}, and I was trained in  ${this.training}.`);}
   
   let polishedBoardMember = new BoardMember();
