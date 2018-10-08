@@ -47,4 +47,4 @@ console.log(`Hi, my name is ${this.name}. I am from  ${this.homeState}, and I wa
   
   let polishedBoardMember = new BoardMember();
   
-   backSlappingGene = 
+   polishedBoardMember.sayHi == backSlappingGene.sayHi; 
