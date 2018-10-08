@@ -30,7 +30,6 @@ function BoardMember(name, homeState, training){
   this.training = training;
 }
 
-User.prototype;
 
 polishedBoardMember.prototype.releasePressStatement = function(){
     console.log("You will see great things from Scuber.");
