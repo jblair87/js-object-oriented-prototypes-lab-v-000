@@ -30,13 +30,14 @@ function BoardMember(name, homeState, training){
   this.training = training;
 }
 
+BoardMember.prototype.veto = function(){
+console.log('No, I must disagree') };
 
-polishedBoardMember.prototype.releasePressStatement = function(){
-    console.log("You will see great things from Scuber.");
-  }
+BoardMember.prototype.releasePressStatement = function(){
+console.log("You will see great things from Scuber.") };
   
-polishedBoardMember.prototype.sayHi = function() {
-    console.log(`Hi, my name is ${this.name}. I am from  ${this.homeState}, and I was trained in  ${this.training}.`);}
+BoardMember.prototype.sayHi = function() {
+console.log(`Hi, my name is ${this.name}. I am from  ${this.homeState}, and I was trained in  ${this.training}.`)};
   
   let polishedBoardMember = new BoardMember();
   
