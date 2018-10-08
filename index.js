@@ -45,6 +45,6 @@ console.log("You will see great things from Scuber.") };
 BoardMember.prototype.sayHi = function() {
 console.log(`Hi, my name is ${this.name}. I am from  ${this.homeState}, and I was trained in  ${this.training}.`)};
   
-  let polishedBoardMember = new BoardMember('Mr. Polished', 'New York', 'law');
+let polishedBoardMember = new BoardMember('Mr. Polished', 'New York', 'law');
   
-   polishedBoardMember.sayHi == backSlappingGene.sayHi; 
+polishedBoardMember.sayHi == backSlappingGene.sayHi; 
