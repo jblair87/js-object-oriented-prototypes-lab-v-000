@@ -22,4 +22,4 @@
 //   }
 // }
 User.prototype.sayHi = function() {
-    console.log(`Hello everybody, my name is ${this.name}`);
+    console.log(`Hi, my name is ${this.name}`);
